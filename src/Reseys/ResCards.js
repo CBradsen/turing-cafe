@@ -1,8 +1,9 @@
-import React from "react"
+import React from "react";
+import './ResCards.css'
 
 const ResCards = ( {reservations} ) => {
 return (
-  <div>
+  <div className="reservation-card">
  {reservations.map((reservation) => (
   <div key={reservation.id}>
     <h3>{reservation.name}</h3>

@@ -13,9 +13,11 @@ class App extends Component {
   }
 
 componentDidMount() {
+  console.log("What are we getting from getRes?", getRes)
   getRes()
   .then(data => {
     this.setState({reservations: data});
+    console.log("Got set in state:", this.state.reservations)
 })
 }
 
