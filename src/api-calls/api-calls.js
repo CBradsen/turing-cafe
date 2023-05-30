@@ -6,11 +6,10 @@ const getRes = fetch("http://localhost:3001/api/v1/reservations")
     if (!response.ok) {
     throw new Error()
   } 
- 
-  return response.json();
-   
+  return response.json()
   })
+   
+  .catch(error => alert("Error collecting reservations. Please try again later.")
+  );
 
-  .catch(error => alert("Error collecting reservations. Please try again later."))
-
-  export default getRes
+  export default getRes;

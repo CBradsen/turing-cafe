@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import getRes from '../api-calls';
+import getRes from '../api-calls/api-calls';
 import ResCards from '../Reseys/ResCards';
 
 class App extends Component {
