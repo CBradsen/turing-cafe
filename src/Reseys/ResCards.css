@@ -1,9 +1,12 @@
 .reservation-card {
-  min-width: 3rem;
-  min-height: 3rem;
-  background-color: whitesmoke;
+  box-sizing: border-box;
   border: 2px solid teal;
-  border-radius: 4px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: whitesmoke;
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 2rem;
+  
+  
+  
 }
